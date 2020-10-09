@@ -18,7 +18,7 @@ export default {
 
 <style scoped lang="scss">
 .home{
-  padding: 0 100px;
+  padding: 0 5%;
   background-color: #F5F9FC;
 }
 </style>
