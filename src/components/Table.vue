@@ -100,7 +100,6 @@ export default {
       return new Set(statuses);
     },
     filteredRows() {
-      console.log(this.rows.filter((r) => r.status === this.selectedOption));
       return this.selectedOption !== "all"
         ? this.rows.filter((r) => r.status === this.selectedOption)
         : this.rows;
